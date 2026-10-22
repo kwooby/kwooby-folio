@@ -305,7 +305,7 @@
   background-color: var(--surface);
   border: solid 1px var(--border);
   color: var(--text);
-  
+
   font-size: 12px;
   font-weight: 650;
   letter-spacing: 0.1em;
@@ -316,6 +316,16 @@
 
 .project-image {
   opacity: 0.4;
+}
+
+.project-card-link,
+.project-card-link:visited {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.project-card-link:hover {
+  color: var(--link-hover)
 }
 
 .project-info {

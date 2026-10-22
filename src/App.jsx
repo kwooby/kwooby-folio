@@ -67,7 +67,7 @@ function App() {
             </a>
           </div>
 
-          <p className="scroll-note">scroll or bowl dude</p>
+          <p className="scroll-note">scroll to explore</p>
         </section>
 
         <section className="project-section" id="projects">
@@ -91,20 +91,29 @@ function App() {
                 <img className="project-image" src={integrationPicture} />
               </div>
 
-              <div className="project-info">
-                <div className="project-title-row">
-                  <h3>Integration Hub</h3>
-                </div>
-                <p>
-                  A full-stack dashboard for managing orders,
-                  payments, shipments, and notifications in one place.
-                </p>
-                <div className="tech-list">
-                  <span>React | </span>
-                  <span>Flask | </span>
-                  <span>PostgreSQL</span>
-                </div>
-              </div>
+                  <a
+                    href="https://integration-hub-frontend-vsds.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-card-link"
+                  >
+                    <div className="project-info">
+                      <div className="project-title-row">
+                        <h3>Integration Hub</h3>
+
+                        <p>
+                          A full-stack dashboard for managing orders,
+                          payments, shipments, and notifications in one place.
+                        </p>
+                        <div className="tech-list">
+                          <span>React | </span>
+                          <span>Flask | </span>
+                          <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  </a>
             </article>
 
             <article className="project-card tracker-card">
@@ -113,20 +122,30 @@ function App() {
                 <img className="project-image" src={trackerPicture} />
               </div>
 
-              <div className="project-info">
-                <div className="project-title-row">
-                  <h3>Mile Tracker</h3>
+
+              <a 
+                href="https://www.kwooby.com/mile-tracker/dashboard" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="project-card-link"
+              >
+                <div className="project-info">
+                  <div className="project-title-row">
+                    <h3>Mile Tracker</h3>
+
+                  </div>
+                  <p>
+                    A personal activity tracker for recording runs
+                    and walks, reviewing mileage, and following progress.
+                  </p>
+                  <div className="tech-stack">
+                    <span>Python | </span>
+                    <span>Flask | </span>
+                    <span>PostgreSQL</span>
+                  </div>
                 </div>
-                <p>
-                  A personal activity tracker for recording runs
-                  and walks, reviewing mileage, and following progress.
-                </p>
-                <div className="tech-stack">
-                  <span>Python | </span>
-                  <span>Flask | </span>
-                  <span>PostgreSQL</span>
-                </div>
-              </div>
+              </a>
+
             </article>
           </div>
         </section>

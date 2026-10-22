@@ -10,14 +10,13 @@
   --surface: #2a2d30;
   --text: #eeeadd;
   --text-muted: #a6afb2;
+  --link-hover: #cddadf;
   --waves: #9bb7bb;
   --waves-hover: #b1cec3;
   --border: #3d4247;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
   font-optical-sizing: auto;
   font-weight: 400;
