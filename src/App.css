@@ -498,6 +498,30 @@
     padding-block: 60px;
   }
 
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-section p {
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+
+  .about-section .profile-image {
+    display: flex;
+    justify-self: center;
+
+    margin-left: 15px;;
+    height: 350px;
+    width: 350px;
+  }
+
+  .written-note {
+    margin-top: 15px;
+    margin-left: 35px;
+  }
+
   .site-footer {
     flex-wrap: wrap;
   }

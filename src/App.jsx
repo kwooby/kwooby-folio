@@ -54,7 +54,7 @@ function App() {
           </p>
 
           <div className="hero-actions">
-            <a className="button button-primary" href="#work">
+            <a className="button button-primary" href="#projects">
               Featured Projects
             </a>
 
